@@ -1,6 +1,6 @@
 export const CompetencesTechF = () => {
     return (
-        <section className="mb-4">
+        <section className="mb-4 bg-gray-500 rounded p-2">
             <h2 className="text-center text-xl font-bold mb-2">Compétences techniques</h2>
             <label className="block mb-2">
               <input type="checkbox" name="comp" id="pro" className="inline messageCheckbox" value="Maîtrise de langages tels que Python, C, JavaScript, etc." />

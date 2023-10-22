@@ -1,6 +1,6 @@
 export const PresentationPersF = () => {
     return (
-        <fieldset className="mb-4 border-2 p-3 rounded">
+        <fieldset className="mb-4 p-3 rounded bg-gray-500">
           <label className="block mb-2">Entrer votre nom:
             <input type="text" name="nom" placeholder="Entrer votre nom" required className="border rounded p-2 w-full" />
           </label>
