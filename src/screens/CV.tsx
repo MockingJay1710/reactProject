@@ -10,7 +10,7 @@ import { Photo } from "../components/CVcomponents/Photo";
 
 export const CV = () => {
     return (
-        <div className="font-sans w-90 max-w-screen-md min-w-1/6 mx-auto p-4">
+        <div className="font-sans w-90 max-w-screen-md min-w-1/6 mx-auto p-4 bg-gray-700 p-3.5 border rounded mb-3.5">
             <header className="text-center font-bold m-8">
                 <TitreCV />
                 <Photo />

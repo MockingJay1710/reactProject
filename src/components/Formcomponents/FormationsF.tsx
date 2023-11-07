@@ -1,6 +1,6 @@
 export const FormationsF = () => {
     return(
-        <section className="mb-4 bg-gray-500 rounded p-2">
+        <section className="mb-4 bg-gray-700 p-3.5 border rounded">
             <h2 className="text-xl font-bold mb-2 text-center">Formations et Diplômes</h2>
             <label className="block mb-2">
               <input type="radio" name="formation_et_dip" className="inline" value="Bac + 2 en informatique" id="r1" />

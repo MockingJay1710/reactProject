@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export const PresentationPersF = () => {
 
   return (
-    <>
+    <div className="bg-gray-700 p-3.5 border rounded mb-3.5">
       <label className="block mb-2">Entrer votre nom:
         <input
           type="text"
@@ -43,8 +43,7 @@ export const PresentationPersF = () => {
         />
       </label>
 
-      <button type="submit">Submit</button>
-    </>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 export const CompetencesLingF = () => {
     return (
-        <section className="mb-4 bg-gray-500 rounded p-2">
+        <section className="mb-4 bg-gray-700 p-3.5 border rounded p-2">
             <h2 className="text-center text-xl font-bold mb-2">Compétences linguistiques</h2>
             <h3 className="font-bold mb-2">Langues :</h3>
             <label className="block mb-2">
