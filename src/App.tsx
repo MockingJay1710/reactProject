@@ -5,7 +5,7 @@ import { CV } from './screens/CV';
 
 function App() {
   return (
-    <div className=" bg-gray-700 text-white">
+    <div className=" bg-gray-500 text-white">
       <nav className="mb-3 flex justify-end">
         <NavLink className='mr-3' style={({isActive}) => ({fontWeight: isActive ? 'bold' : 'normal'})} to='/'>Mon CV</NavLink>
         <NavLink className='mr-3' style={({isActive}) => ({fontWeight: isActive ? 'bold' : 'normal'})} to='/form'>Creer son CV</NavLink>
